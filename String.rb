@@ -1,22 +1,22 @@
 #Strings is a group of characters
 class StringC
     def strLearning
-        str="hello world"
+        str="hello world change"
         puts str
     end
     def strLearning2
-        str='hello world'
+        str='hello world change '
         puts str
     end
-#string substitution 
+#string substitution
     def strLearning3
-        str1="Carola"
+        str1="Carola change"
         str="hello world #{str1}"
         puts str
     end
-    
+
     def strLearning4
-        puts "Please enter your name"
+        puts "Please enter your name change"
         name=gets.chomp
         str="hello #{name} ... Welcome to RUBY"
         puts str
@@ -34,7 +34,7 @@ class StringC
     end
 
     #String FUNCTIONS
-     
+
     def function1(str)
         #GOING TO CONVERT STRINGS IN UPPERCASE
         puts str.upcase()
@@ -48,7 +48,7 @@ class StringC
         #concatenate 2 strings
         puts str + " Es la mejorts" + ' holo'
         puts str.concat(" Es la mejorts")
-        
+
         str2="test"
         puts (str2.concat(" mundo")).length()
     end
@@ -56,24 +56,24 @@ class StringC
     #String FUNCTIONS 2
 
     def function2(str)
-        #lstrip: will remove leading spaces in the string 
+        #lstrip: will remove leading spaces in the string
         puts str.lstrip()
         puts str.lstrip().length()
 
-        #rstrip: will remove trailing spaces in the string 
+        #rstrip: will remove trailing spaces in the string
         puts str.rstrip()
         puts str.rstrip().length()
 
-         #remove leading and trailing spaces 
+         #remove leading and trailing spaces
          puts str.lstrip().rstrip()
          puts str.lstrip().rstrip().length()
 
-          #strip: remove leading and trailing spaces 
+          #strip: remove leading and trailing spaces
           puts str.strip()
           puts str.strip().length()
 
-           
-      
+
+
     end
       #chop: remove last letter
     def function2Chop(str)
@@ -86,8 +86,8 @@ class StringC
         puts str2.length()
 
 
-      end    
-    
+      end
+
       #String FUNCTIONS 3
     def function3ReverseInsert(str1)
             puts str1.reverse()
@@ -96,7 +96,7 @@ class StringC
            puts str1[7]= " ABCD" #Option 2
            puts str1
     end
-   
+
     def function3Repeatig(str1)
         puts str1 * 3
     end
@@ -133,15 +133,15 @@ class StringC
      def function4Compare(str1,str2)
         if (str1==str2)
           puts "Strings are the same"
-        else 
+        else
           puts "Strings are NOT the same"
         end
      end
-      
+
      def function4Compare2(str1,str2)
         if (str1.eql?(str2))
           puts "Strings are compared"
-        else 
+        else
           puts "Strings are NOT compared"
         end
      end
@@ -150,7 +150,7 @@ class StringC
      def function4Casecmp(str1,str2)
         if (str1.casecmp(str2)) #compare ignoring lower and upper case
           puts "Strings the same"
-        else 
+        else
           puts "Strings are NOT the same"
         end
      end
